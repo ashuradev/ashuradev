@@ -1,8 +1,12 @@
+Olá, meu nome é joaozinho quarentena e nove / ashura, tenho 16, utilizo com PHP, JavaScript e Haskell, gosto de Minecraft, minhas redes sociais são github.com/ashuradev e gostaria de aprender Ruby.
+
 ```haskell
+-- runhaskell ./Ashura.hs
+
 module Ashura where
 
 data SocialNetwork = GitHub [Char]
-data User = User [Char] Int [[Char]] [[Char]] [SocialNetwork] [[Char]]
+data User = User [Char] Int [String] [String] [SocialNetwork] [String]
 
 instance Show SocialNetwork where
   show (GitHub username) = "github.com/" ++ username
@@ -32,6 +36,3 @@ ashura = User "joaozinho quarentena e nove / ashura" 16 ["PHP", "JavaScript", "H
 
 main = print ashura
 ```
-`runhaskell ./Ashura.hs`
-
-Olá, meu nome é joaozinho quarentena e nove / ashura, tenho 16, utilizo com PHP, JavaScript e Haskell, gosto de Minecraft, minhas redes sociais são github.com/ashuradev e gostaria de aprender Ruby.
